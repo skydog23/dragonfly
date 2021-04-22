@@ -1,0 +1,7 @@
+# here go the exclude file patterns for files that shoult not be compiled and
+# inserted into the dist jar archive.
+
+**/RigidBodyMotion2D.java
+**/RigidBodyBabbaloo.java
+**/attic/*.java
+**/SimpleTest2.java

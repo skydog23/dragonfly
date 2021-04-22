@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<title>Family of Reguli of a Skew Quad</title>
+</head>
+
+<body lang="EN-US" link=blue vlink=purple>
+<h2 align="center">Multi-Scale Turing Patterns with Wallpaper Symmetries</h2>
+<p align="center"><em>First-time users: See<a href="PluginSceneLoader.html"> this introduction</a>. to the visualization tools involved.</em></p>
+<h3>Mathematical background </h3>
+<p>This work is based directly on the work of Jonathan McCabe (www.jonathonmccabe.com) presented at Bridges 2010 conference and entitled &quot;Cyclic Symmetric Multi-Scale Turing Patterns&quot;. From the abstract to that paper: </p>
+<blockquote>
+  <p>In his 1952 paper &quot;The Chemical Basis of Morphogenesis&quot; Alan Turing suggested that a system of chemical substances, reacting together and diffusing through a tissue, would account for the generation of patterns in multicellular organisms.</p>
+</blockquote>
+<p>A single Turing pattern has a characteristic scale, or length. McCabe devised a method to combine several &quot;scales&quot; or &quot;levels&quot; of Turing patterns into a single image, and showed how to introduce cyclic symmetry into the image. My contribution is to extend the idea to include symmetry of a wallpaper group. Two groups have been implemented, the rotation group<em> 244</em> and the reflection group <em>*2222</em> (both in the Conway-Thurston orbifold notation). This involves identifying a fundamental domain for the simulation (a polygon in the plane) and then calculating the Turing pattern generation algorithm on this fundamental domain. Since the algorithm depends on neighborhoods (a so-called cellular automata), the trick is to obtain the correct neighborhoods for points (pixels) which lie on the boundary of the fundamental region. </p>
+<p>In the interest of efficiency, the scales present in this implementation are constrained to be powers of three. That is, the neighborhoods of a pixel which are sampled are of square size 3, 9, 27, 81, 243, etc. </p>
+<p>The algorithm depends on the following parameters:</p>
+<ul>
+  <li><strong>number of levels.</strong> (how many scales are to be combined)&nbsp;. A value of three for example yields neighborhoods of side 3, 9, and 27.</li>
+  <li><strong>weights</strong>. For each level, a weight is provided which controls how much the corresponding scale contributes to the pattern. For better or for worse, at the current time this is the inverse of what you might expect. A small weight lowers a threshold, which makes it easier for the corresponding scale to qualify as the &quot;neediest&quot; scale, and hence increases the presence of that scale. </li>
+  <li><strong>time step</strong>. This is a kind of temperature: higher values result in more motion in the pattern.</li>
+  <li><strong>size</strong>. This is the resolution of the fundamental domain, in pixels. Note that when the number of levels is set so that the size of neighborhoods is greater than this value, one gets funny feedback, since the neighborhood wraps around the fundamental domain. If the disparity is too great, it can lead to exceptions and termination of the program. So, if you reduce this size, make sure the number of levels is not too large. A bit of wrapping is OK but too much -- you'll find out for yourself!</li>
+</ul>
+<h3>User interface</h3>
+<p>There should be a panel visible to the left of the 3D graphics window labeled &quot;TuringPattern&quot;. If this is not present, select the menu item &quot;Window-&gt;Left slot&quot;. The full window should appear as shown below. You can remove the panel using the same menu item. You can also drag the panel out of the window by dragging on the title bar.</p>
+<p><img src="turingPatterns-01.jpg" alt="Turing Patterns interface" width="421" height="712"></p>
+<p>The two buttons at the top:</p>
+<ul>
+  <li><strong>run/pause</strong>. Use this button to activate and deactivate the simulation.</li>
+  <li><strong>reset</strong>. Clicking this generates a new random pattern and starts the simulation over again (if the first button is active.)&nbsp;
+    </p>
+  </li>
+</ul>
+<p>The <em>filter type</em> controls how the neighborhoods are combined together. The choice of <em>flat</em> seems to give best results for reasons unknonwn.</p>
+<ul>
+  <li><strong>flat</strong>. This averages the values with equal weights</li>
+  <li><strong>rounded</strong> This averages the values with a &quot;hemispherical&quot; weighting (more in middle, 0 on corners)</li>
+  <li><strong>tent</strong> The middle is weighted the most, and decreases linearly to the corners</li>
+  <li><strong>asymmetric</strong> Can't remember. Try it!</li>
+</ul>
+<p>There are also a set of toggles:</p>
+<ul>
+  <li><strong>just one</strong>. When this is selected, the multi-level algorithm described above is implemented. Otherwise, each level is evolved separately from the others.</li>
+  <li><strong>polish</strong>. This appears to apply a sort of smoothing operator to all filtered values (a kind of post-filter) which is a mix of a tent and a flat filter.</li>
+  <li><strong>attenuate</strong>. The general tendency for most values in a steady state is to approach 0 or 1 in value. When this is selected,  the approach to these extreme values is slowed down (proportional to the difference to them).</li>
+  <li><strong>animate weights.</strong> There are a set of controls which automatically animate the weights (see below). Select this to activate them.</li>
+  <li><strong>show colormap</strong><strong>.</strong> Remember colormaps? Too bad this one isn't so successful!</li>
+</ul>
+<p>The set of sliders controls following parameters:</p>
+<ul>
+  <li><strong>steps per tick</strong>. This many iterations of the Turing algorithm are carried out between each update of the rendered image.</li>
+  <li><strong>active weights</strong>, <strong>size</strong>, and <strong>step</strong> correspond to the number of levels, size, and time step in the mathematical description above.</li>
+</ul>
+<p>Fnally there are some values for animating the weights. The spiffy Sinusoidal color provider gives 3 channels of values v0, v1, and v2, in the range 0-1. Then weight 0 = base + amplitude * v0, etc. Here base and amplitude are the values of the sliders bearing these names. This means only the first three weights are animated. </p>
+</body>
+</html>

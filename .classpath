@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="dragonfly/dynamen/RigidBodyMotion2D.java|dragonfly/animation/facets/DancingSquaresPluginBad.java|dragonfly/dynamen/attic/RBM2DVR.java|dragonfly/dynamen/attic/TestRigidBodyPlane.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/animation"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jrworkspace"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProjectiveGeometry"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/discretegroup"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/discretegroupCGG"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java2dOld"/>
+	<classpathentry kind="lib" path="/lib/numericalMethods-22.05.06.jar"/>
+	<classpathentry kind="lib" path="/lib/jai_codec.jar"/>
+	<classpathentry kind="lib" path="/lib/jai_core.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jrealityBullet"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/projgeom"/>
+	<classpathentry kind="lib" path="/jrealityBullet/lib/bulletSoundData.jar"/>
+	<classpathentry kind="lib" path="/jrealityBullet/lib/jbullet-all.jar"/>
+	<classpathentry kind="lib" path="/jrealityBullet/lib/jbullet-demos.jar"/>
+	<classpathentry kind="lib" path="/jrealityBullet/lib/vecmath.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jreality"/>
+	<classpathentry kind="lib" path="/jreality/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="/jreality/lib/xstream-1.4.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

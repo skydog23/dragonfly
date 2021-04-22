@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<title>Family of Reguli of a Skew Quad</title>
+</head>
+
+<body lang="EN-US" link=blue vlink=purple>
+<h2 align="center">Euler Top </h2>
+<p align="center">Author: Charles Gunn, gunn@math.tu-berlin.de</p>
+<p align="center"><em>First-time users: See<a href="PluginSceneLoader.html"> this introduction</a> to the visualization platform.</em></p>
+<h3>Mathematical background </h3>
+<p>The Euler top is the simplest thinkable rigid body motion in space: a motion of a body whose center of mass remains fixed, and in which no external forces are active. This simulation allows the user to explore this seemingly simple configuration, which despite its simplicity demonstrates quite complicated behavior.</p>
+<p>We give below a very abbreviated account of the principles of the Euler top. See a textbook like Arnold, Classical Methods of Mathematical Physics, Ch. 6, for a real account.</p>
+<h3>User interface</h3>
+<p>When the program starts up, it should appear roughly as in the picture below. A rigid body (the yellow wire-frame box) is also represented by its inertial ellipsoid (a wire-frame sphere). By clicking in dragging in the graphics window, you can activate the rigid body simulation for this box.  As long as you hold down the mouse, the object rotates normally. Upon release of the mouse, the program calculates the instantaneous velocity of the object and uses that plus the inertia tensor of the object to calculate the momentum of the body. This momentum &quot;line&quot; then remains constant for the subsequent motion, but as the body moves, the angular velocity changes, in such a way that the kinetic energy of the motion remains constant. Note: if the mouse is over the transparent disk when click, the rigid body simulator is not activated, only a normal rotation.</p>
+<p>As the body rotates, the angular velocity traces out a blue curve on the surface of the inertia ellipsoid, the so-called <em>polhode</em> of the motion. This is a quartic curve that is the intersection of two oval quadrics, one determined by the conservation of momentum, and one by the conservation of energy. The theory of the Euler top, due to Poinsot, asserts that this blue curve (which is in the body coordinate system), when considered in the space coordinate system, moves in a plane perpendicular to the momentum line, the so-called invariant plane. The curve that lies in the invariant plane is the <em>herpolhode</em>, and is shown in green. This green curve is almost periodic; it moves between two circles in the invariant plane centered on the momentum line. The green curve is created from the blue one by the point of contact as the inertial ellipsoid <em>rolls</em> on the invariant plane.</p>
+<p>The user can start the simulation with another initial condition at any time by repeating the process outlined above, taking care not to click over the transparent disk representing the invariant plane. Clicking and dragging over this disk can be used to allow the simulation to continue, while adjusting the position of the whole configuration in space. Or, the user can deactivate the tool in the left-hand panel (see below); this then removes the &quot;physics&quot; tool.</p>
+<p><img src="EulerTop-01.png" width="1089" height="620" alt="picture"></p>
+<p>There is a context menu accessible via right mouse press. The controls accessible from this menu include:</p>
+<ul>
+  <li>Change the group: to any of the 17 wallpaper groups, plus one cyclic and one dihedral group.</li>
+  <li>Change the plugin: there are several other plugins, besides the paint plugin:
+    <ul>
+      <li>texture: play with a texture applied to the fundamental region</li>
+      <li>I hope at some later date to complete the documentation for the controls shown on the left hand panel, particularly for the paint plugin, but have not the time now.</li>
+    </ul>
+  </li>
+  </ul>
+</body>
+</html>

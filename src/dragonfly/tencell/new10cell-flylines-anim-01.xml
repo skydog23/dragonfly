@@ -1,0 +1,1189 @@
+<charlesgunn.anim.io.ImportExport>
+  <timestamp>2013-09-20 09:01:41.827 UTC</timestamp>
+  <animationPanel>
+    <keyFrames serialization="custom">
+      <unserializable-parents/>
+      <linked-list>
+        <default/>
+        <int>6</int>
+        <KeyFrame>
+          <td>
+            <time>0.0</time>
+          </td>
+          <value/>
+        </KeyFrame>
+        <KeyFrame>
+          <td>
+            <time>1.0</time>
+          </td>
+          <value reference="../../KeyFrame/value"/>
+        </KeyFrame>
+        <KeyFrame>
+          <td>
+            <time>2.0</time>
+          </td>
+          <value reference="../../KeyFrame/value"/>
+        </KeyFrame>
+        <KeyFrame>
+          <td>
+            <time>3.0</time>
+          </td>
+          <value reference="../../KeyFrame/value"/>
+        </KeyFrame>
+        <KeyFrame>
+          <td>
+            <time>4.0</time>
+          </td>
+          <value reference="../../KeyFrame/value"/>
+        </KeyFrame>
+        <KeyFrame>
+          <td>
+            <time>5.0</time>
+          </td>
+          <value reference="../../KeyFrame/value"/>
+        </KeyFrame>
+      </linked-list>
+    </keyFrames>
+    <inspectedKeyFrame>0</inspectedKeyFrame>
+    <currentKeyFrame reference="../keyFrames/linked-list/KeyFrame"/>
+    <currentTime>0.0</currentTime>
+    <totalTicks>150</totalTicks>
+    <totalSeconds>5.0</totalSeconds>
+    <playbackFactor>0.049999999771666276</playbackFactor>
+    <stem>spiral</stem>
+    <loopPlay>false</loopPlay>
+    <recording>false</recording>
+    <isPaused>true</isPaused>
+    <playbackMode>NORMAL</playbackMode>
+    <recordPrefs>
+      <stemName>test</stemName>
+      <currentDirectoryPath>/gunn_local/Movies/tencell/13.09.20-01-flylines</currentDirectoryPath>
+      <fileFormatSuffix>png</fileFormatSuffix>
+      <frameCountFormatString>%04d</frameCountFormatString>
+      <antialiasing>4</antialiasing>
+      <fps>30</fps>
+      <startCount>0</startCount>
+      <saveAlpha>true</saveAlpha>
+      <saveScreenshot>false</saveScreenshot>
+      <startTime>4.0</startTime>
+      <endTime>-1.0</endTime>
+      <dimension>
+        <width>1920</width>
+        <height>1080</height>
+      </dimension>
+    </recordPrefs>
+    <resourceDir>/homes/geometer/gunn/Documents/animations/</resourceDir>
+    <globalPlaybackFactor>1.0</globalPlaybackFactor>
+    <listeners class="vector">
+      <charlesgunn.anim.gui.AnimationPanelListenerImpl>
+        <name>application</name>
+        <animated class="vector">
+          <dragonfly.tencell.TenCell>
+            <archive>
+              <boolean-array>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+              </boolean-array>
+              <boolean-array>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+              </boolean-array>
+              <boolean-array>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+                <boolean>true</boolean>
+              </boolean-array>
+              <boolean-array>
+                <boolean>true</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+                <boolean>false</boolean>
+              </boolean-array>
+            </archive>
+            <visCat>
+              <boolean>false</boolean>
+              <boolean>true</boolean>
+              <boolean>true</boolean>
+              <boolean>false</boolean>
+            </visCat>
+            <anim1 class="dragonfly.tencell.TenCell$1">
+              <name>dragonfly.tencell.TenCell$1</name>
+              <outer-class reference="../.."/>
+            </anim1>
+          </dragonfly.tencell.TenCell>
+          <KeyFrameAnimatedBean>
+            <name>termesCamera</name>
+            <excluded/>
+            <animatedFields>
+              <KeyFrameAnimatedDouble>
+                <name>FStop</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">-1.0</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <KeyFrameAnimatedDouble>
+                <name>eyeSeparation</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">0.07</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <KeyFrameAnimatedDouble>
+                <name>far</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">4.0</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <KeyFrameAnimatedDouble>
+                <name>fieldOfView</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">125.00000000000001</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <KeyFrameAnimatedDouble>
+                <name>focalLength</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">0.1</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <KeyFrameAnimatedDouble>
+                <name>focus</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">3.0</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>leftEye</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+              <KeyFrameAnimatedDouble>
+                <name>near</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="double">0.01</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </KeyFrameAnimatedDouble>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>onAxis</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>perspective</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">true</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>readOnly</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>rightEye</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+              <charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+                <name>stereo</name>
+                <keyFrames serialization="custom">
+                  <unserializable-parents/>
+                  <linked-list>
+                    <default/>
+                    <int>6</int>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                    <KeyFrame>
+                      <td reference="../../../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                      <value class="boolean">false</value>
+                    </KeyFrame>
+                  </linked-list>
+                </keyFrames>
+                <interp>LINEAR</interp>
+                <boundaryMode>CLAMP</boundaryMode>
+                <onlyAddChanges>true</onlyAddChanges>
+                <givesWay>false</givesWay>
+                <writable>true</writable>
+                <currentSegment>0</currentSegment>
+                <valueIsSet>false</valueIsSet>
+                <previous reference="../keyFrames/linked-list/KeyFrame"/>
+                <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+              </charlesgunn.anim.core.KeyFrameAnimatedBoolean>
+            </animatedFields>
+          </KeyFrameAnimatedBean>
+          <KeyFrameAnimatedTransformation>
+            <name>cameraNode Tform</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="FactoredMatrix">
+                    <double>-0.23803075261324147</double>
+                    <double>0.14332734236988826</double>
+                    <double>0.38625779861017434</double>
+                    <double>0.879547353331459</double>
+                    <double>-0.8179950078713768</double>
+                    <double>0.15712601204549353</double>
+                    <double>0.3714835970141959</double>
+                    <double>-0.41011647197545525</double>
+                    <double>-0.5121277561293761</double>
+                    <double>-0.49714855412181824</double>
+                    <double>-0.6606716541875629</double>
+                    <double>0.2325541697960865</double>
+                    <double>-0.10931920832941576</double>
+                    <double>0.8411967691345765</double>
+                    <double>-0.5256594101842806</double>
+                    <double>0.06418325928530137</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.11577267578505633</double>
+                    <double>-0.30120852915953755</double>
+                    <double>0.44671207203715796</double>
+                    <double>0.8344569696511526</double>
+                    <double>-0.673295811046534</double>
+                    <double>0.6108783534435728</double>
+                    <double>0.4050642672751895</double>
+                    <double>0.09707382498946342</double>
+                    <double>-0.5891614494353005</double>
+                    <double>-0.731329754463719</double>
+                    <double>0.19191473180062918</double>
+                    <double>-0.28498124930111784</double>
+                    <double>-0.4314605716262668</double>
+                    <double>-0.035466173907741774</double>
+                    <double>-0.7742996834501396</double>
+                    <double>0.4615668162349895</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.39874496010979604</double>
+                    <double>-0.1338164736434934</double>
+                    <double>0.540907332205509</double>
+                    <double>-0.7283645146044498</double>
+                    <double>-0.4066516902075035</double>
+                    <double>0.7686114953483446</double>
+                    <double>0.4938242403401456</double>
+                    <double>0.002896846947856007</double>
+                    <double>0.47378330351804604</double>
+                    <double>-0.10254553440680934</double>
+                    <double>0.545745700752065</double>
+                    <double>0.6835023224476885</double>
+                    <double>0.671689095449632</double>
+                    <double>0.6171012347850421</double>
+                    <double>-0.40708538137525274</double>
+                    <double>-0.04797204760484153</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.6576967890946399</double>
+                    <double>-0.1505230432554191</double>
+                    <double>-0.24879019535173402</double>
+                    <double>-0.6948965288160324</double>
+                    <double>-0.3105694796929634</double>
+                    <double>0.7624126430570833</double>
+                    <double>0.20081266215195115</double>
+                    <double>-0.5309876031598129</double>
+                    <double>0.3467721804739396</double>
+                    <double>-0.09435126840396334</double>
+                    <double>0.9330778552820991</double>
+                    <double>0.014581117311799681</double>
+                    <double>0.5922251149243776</double>
+                    <double>0.6222279432060273</double>
+                    <double>-0.16475263093028403</double>
+                    <double>0.4847250463386084</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.6576967890946399</double>
+                    <double>-0.1505230432554191</double>
+                    <double>-0.24879019535173402</double>
+                    <double>-0.6948965288160324</double>
+                    <double>-0.3105694796929634</double>
+                    <double>0.7624126430570833</double>
+                    <double>0.20081266215195115</double>
+                    <double>-0.5309876031598129</double>
+                    <double>0.3467721804739396</double>
+                    <double>-0.09435126840396334</double>
+                    <double>0.9330778552820991</double>
+                    <double>0.014581117311799681</double>
+                    <double>0.5922251149243776</double>
+                    <double>0.6222279432060273</double>
+                    <double>-0.16475263093028403</double>
+                    <double>0.4847250463386084</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.6576967890946399</double>
+                    <double>-0.1505230432554191</double>
+                    <double>-0.24879019535173402</double>
+                    <double>-0.6948965288160324</double>
+                    <double>-0.3105694796929634</double>
+                    <double>0.7624126430570833</double>
+                    <double>0.20081266215195115</double>
+                    <double>-0.5309876031598129</double>
+                    <double>0.3467721804739396</double>
+                    <double>-0.09435126840396334</double>
+                    <double>0.9330778552820991</double>
+                    <double>0.014581117311799681</double>
+                    <double>0.5922251149243776</double>
+                    <double>0.6222279432060273</double>
+                    <double>-0.16475263093028403</double>
+                    <double>0.4847250463386084</double>
+                  </value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>CUBIC_HERMITE</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+            <useNatural>false</useNatural>
+          </KeyFrameAnimatedTransformation>
+          <KeyFrameAnimatedTransformation>
+            <name>content [de.jreality.scene.SceneGraphComponent] Tform</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="FactoredMatrix">
+                    <double>-0.15512997293343087</double>
+                    <double>0.08330268295107687</double>
+                    <double>0.006562724606937691</double>
+                    <double>-0.9843537398499602</double>
+                    <double>-0.9584173129627013</double>
+                    <double>-0.25428476132096345</double>
+                    <double>-8.635020827672805E-4</double>
+                    <double>0.12951744568998283</double>
+                    <double>0.0015968658420984828</double>
+                    <double>-0.006423787315498983</double>
+                    <double>0.9999608544998525</double>
+                    <double>0.0058714941579179935</double>
+                    <double>-0.23951700509844104</double>
+                    <double>0.9635137041744036</double>
+                    <double>0.005871497042979807</double>
+                    <double>0.11932506719749846</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.24295198041000188</double>
+                    <double>-0.11683959684749665</double>
+                    <double>0.22704288810099602</double>
+                    <double>-0.9358281737511103</double>
+                    <double>-0.9627121015177724</double>
+                    <double>-0.05317424523177616</double>
+                    <double>-0.06110324229345293</double>
+                    <double>-0.25811683985459954</double>
+                    <double>-0.11888090113313171</double>
+                    <double>0.14891511838078328</double>
+                    <double>0.9641902894118597</double>
+                    <double>0.18446870918194308</double>
+                    <double>-0.0052034749774375055</double>
+                    <double>0.98048217514155</double>
+                    <double>-0.12269884493266087</double>
+                    <double>-0.15353377976916902</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.22588149743192007</double>
+                    <double>-0.10198387630425025</double>
+                    <double>0.2270827841933558</double>
+                    <double>-0.9418122144117055</double>
+                    <double>-0.9674717486636026</double>
+                    <double>-0.019073637257623243</double>
+                    <double>-0.061192528868821316</double>
+                    <double>-0.24472451105320328</double>
+                    <double>-0.111863291273696</double>
+                    <double>0.14812470453885318</double>
+                    <double>0.9641560684821506</double>
+                    <double>0.18960156006663462</double>
+                    <double>0.02150741084109412</double>
+                    <double>0.9835113406774425</double>
+                    <double>-0.12284933513301952</double>
+                    <double>-0.13096150157704683</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.2615572981005718</double>
+                    <double>-0.14186989149029003</double>
+                    <double>0.24013222522547442</double>
+                    <double>-0.9240114869996722</double>
+                    <double>-0.9601852159949323</double>
+                    <double>-0.047809789312545925</double>
+                    <double>-0.03358933833663119</double>
+                    <double>-0.27318552556969694</double>
+                    <double>-0.09803303323137491</double>
+                    <double>0.13624310736590234</double>
+                    <double>0.9648778549869506</double>
+                    <double>0.20208430183099907</double>
+                    <double>0.004653513783888508</double>
+                    <double>0.9792982046495344</double>
+                    <double>-0.10108904843807376</double>
+                    <double>-0.1753122228074091</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.2615572981005718</double>
+                    <double>-0.14186989149029003</double>
+                    <double>0.24013222522547442</double>
+                    <double>-0.9240114869996722</double>
+                    <double>-0.9601852159949323</double>
+                    <double>-0.047809789312545925</double>
+                    <double>-0.03358933833663119</double>
+                    <double>-0.27318552556969694</double>
+                    <double>-0.09803303323137491</double>
+                    <double>0.13624310736590234</double>
+                    <double>0.9648778549869506</double>
+                    <double>0.20208430183099907</double>
+                    <double>0.004653513783888508</double>
+                    <double>0.9792982046495344</double>
+                    <double>-0.10108904843807376</double>
+                    <double>-0.1753122228074091</double>
+                  </value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="FactoredMatrix">
+                    <double>0.2615572981005718</double>
+                    <double>-0.14186989149029003</double>
+                    <double>0.24013222522547442</double>
+                    <double>-0.9240114869996722</double>
+                    <double>-0.9601852159949323</double>
+                    <double>-0.047809789312545925</double>
+                    <double>-0.03358933833663119</double>
+                    <double>-0.27318552556969694</double>
+                    <double>-0.09803303323137491</double>
+                    <double>0.13624310736590234</double>
+                    <double>0.9648778549869506</double>
+                    <double>0.20208430183099907</double>
+                    <double>0.004653513783888508</double>
+                    <double>0.9792982046495344</double>
+                    <double>-0.10108904843807376</double>
+                    <double>-0.1753122228074091</double>
+                  </value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>CUBIC_HERMITE</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+            <useNatural>false</useNatural>
+          </KeyFrameAnimatedTransformation>
+          <dragonfly.tencell.TenCell_-1 reference="../dragonfly.tencell.TenCell/anim1"/>
+          <KeyFrameAnimatedDouble>
+            <name>animAlpha</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="double">0.25</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="double">0.25</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="double">0.25</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="double">0.25</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="double">0.25</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="double">0.0</value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>LINEAR</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+          </KeyFrameAnimatedDouble>
+          <KeyFrameAnimatedDouble>
+            <name>metricFactor</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="double">0.7453559924999299</value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>LINEAR</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+          </KeyFrameAnimatedDouble>
+          <KeyFrameAnimatedDouble>
+            <name>implodeHex</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>LINEAR</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+          </KeyFrameAnimatedDouble>
+          <KeyFrameAnimatedDouble>
+            <name>implodeTri</name>
+            <keyFrames serialization="custom">
+              <unserializable-parents/>
+              <linked-list>
+                <default/>
+                <int>6</int>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[2]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[3]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[4]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[5]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+                <KeyFrame>
+                  <td reference="../../../../../../../../keyFrames/linked-list/KeyFrame[6]/td"/>
+                  <value class="double">0.35</value>
+                </KeyFrame>
+              </linked-list>
+            </keyFrames>
+            <interp>LINEAR</interp>
+            <boundaryMode>CLAMP</boundaryMode>
+            <onlyAddChanges>true</onlyAddChanges>
+            <givesWay>false</givesWay>
+            <writable>true</writable>
+            <currentSegment>0</currentSegment>
+            <valueIsSet>false</valueIsSet>
+            <previous reference="../keyFrames/linked-list/KeyFrame"/>
+            <next reference="../keyFrames/linked-list/KeyFrame[2]"/>
+          </KeyFrameAnimatedDouble>
+        </animated>
+        <animatedKF class="vector">
+          <KeyFrameAnimatedBean reference="../../animated/KeyFrameAnimatedBean"/>
+          <KeyFrameAnimatedTransformation reference="../../animated/KeyFrameAnimatedTransformation"/>
+          <KeyFrameAnimatedTransformation reference="../../animated/KeyFrameAnimatedTransformation[2]"/>
+          <KeyFrameAnimatedDouble reference="../../animated/KeyFrameAnimatedDouble"/>
+          <KeyFrameAnimatedDouble reference="../../animated/KeyFrameAnimatedDouble[2]"/>
+          <KeyFrameAnimatedDouble reference="../../animated/KeyFrameAnimatedDouble[3]"/>
+          <KeyFrameAnimatedDouble reference="../../animated/KeyFrameAnimatedDouble[4]"/>
+        </animatedKF>
+      </charlesgunn.anim.gui.AnimationPanelListenerImpl>
+      <charlesgunn.anim.gui.AnimationPanelRecordListener>
+        <name>record</name>
+      </charlesgunn.anim.gui.AnimationPanelRecordListener>
+    </listeners>
+  </animationPanel>
+</charlesgunn.anim.io.ImportExport>

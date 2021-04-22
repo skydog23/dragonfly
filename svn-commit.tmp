@@ -1,0 +1,8 @@
+Latest changes
+--This line, and those below, will be ignored--
+
+_M   .
+M    .classpath
+A    src/discreteGroup/demo/EscherPatternPaper.java
+M    src/discreteGroup/demo/FirTreeDemo.java
+M    src/discreteGroup/demo/SchatzCube.java

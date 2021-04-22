@@ -1,0 +1,84 @@
+<project name="dragonfly project" default="dist" basedir=".">
+    <description>
+        discreteGroup build file
+    </description>
+  
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist" location="dist"/>
+  <property name="apidoc" location="doc/apidocs"/>
+	 <property name="stdlib" location="../lib"/>
+	 <property name="jrlib" location="../jreality/lib"/>
+	<property name="weblib" location="/homes/geometer/gunn/WWW/webstart/jars-current"/>
+ 
+  <target name="init">
+    <mkdir dir="${build}"/>
+    <mkdir dir="${dist}"/>
+  </target>
+
+  <target name="core" depends="init" description="compile the source " >
+    <javac  source="1.6" target="1.6" excludesfile="excludes.txt" srcdir="${src}" destdir="${build}" 
+   	classpath="${stdlib}/charlesgunn.jar:
+    		${stdlib}/projgeom.jar:
+     		${stdlib}/jReality.jar:
+    		${stdlib}/jrealityBullet-2009-11-28.jar:
+     		${stdlib}/jReality-tutorial.jar:
+    	${stdlib}/jbullet-all.jar:
+    	${stdlib}/jrworkspace.jar:
+     	${stdlib}/jh.jar:
+      	${jrlib}/jogl-all.jar:
+    	${stdlib}/anim.jar:
+      	${stdlib}/discretegroup.jar:
+      	${stdlib}/discretegroupCGG.jar:
+    	${stdlib}/halfedge.jar:${stdlib}/halfedgeDDG.jar:${stdlib}/halfedgetools.jar:
+      	${stdlib}/antlr-2.7.5.jar:
+      	${stdlib}/java2d.jar:
+  	${stdlib}/numericalMethods-22.05.06.jar" debug="true">
+      <compilerarg line="-source 1.6" />
+    </javac>
+    <copy todir="build"> <!-- copy shader progs -->
+         <fileset dir="${src}">
+           <exclude name="**/*.java"/>
+           <exclude name="**/*.gif"/>
+         </fileset>
+       </copy>
+  </target>
+
+  <target name="dist" depends="core" description="generate the distribution" >
+    <jar jarfile="${dist}/dragonfly.jar" basedir="${build}">
+		<manifest>
+			<attribute name="Built-By" value="Charles Gunn"/>
+			<attribute name="Implementation-Vendor" value="Charles Gunn"/>
+			<attribute name="Implementation-Title" value="Miscellaneous Java classes, mostly for fun."/>
+		</manifest>
+    </jar>
+
+   	<!--exec dir="dist" executable="ant" >
+    		<arg line=" -f /net/MathVis/signJars.xml"/>
+    	</exec-->
+    	<!--copy todir="${weblib}">
+    		<fileset file="${dist}/dragonfly.jar">
+    		</fileset>
+    	</copy-->
+   	<copy todir="${stdlib}">
+    		<fileset file="${dist}/dragonfly.jar">
+    		</fileset>
+    	</copy>
+ </target>
+
+  <target name="javadoc">
+    <javadoc destdir="${apidoc}" author="true" version="true" use="true" windowtitle="Template Project API">
+      <packageset dir="src" defaultexcludes="yes">
+        <include name="charlesgunn/**" />
+      </packageset>
+    </javadoc>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+    <delete dir="${apidoc}"/>
+  </target>
+  
+</project>
