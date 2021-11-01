@@ -1,7 +1,7 @@
 package dragonfly.dynamen;
 
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import de.jreality.math.Rn;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class RBMOdeBiquaternion2D extends AbstractRBMOdeBiquaternion {
 

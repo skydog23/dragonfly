@@ -6,10 +6,10 @@ import java.util.Vector;
 
 import javax.swing.Timer;
 
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import de.jreality.math.P3;
 import de.jreality.math.Pn;
 import de.jreality.math.Rn;
-import de.jtem.projgeom.PlueckerLineGeometry;
 import dragonfly.dynamen.RBMOde;
 import dragonfly.dynamen.RBMOdeBiquaternion3D;
 import dragonfly.dynamen.RigidBodyInterface;

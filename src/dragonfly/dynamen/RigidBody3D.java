@@ -5,10 +5,10 @@ import java.awt.event.ActionListener;
 import java.util.Vector;
 
 import charlesgunn.math.BiquaternionUtility;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import de.jreality.math.P3;
 import de.jreality.math.Pn;
 import de.jreality.math.Rn;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class RigidBody3D implements RigidBodyInterface {
 

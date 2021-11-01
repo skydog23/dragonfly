@@ -41,6 +41,7 @@ import charlesgunn.jreality.geometry.projective.PointRangeFactory;
 import charlesgunn.jreality.texture.SimpleTextureFactory;
 import charlesgunn.math.Biquaternion;
 import charlesgunn.math.Biquaternion.Metric;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.math.BiquaternionUtility;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.FrameFieldType;
@@ -69,7 +70,6 @@ import de.jreality.shader.Texture2D;
 import de.jreality.shader.TextureUtility;
 import de.jreality.util.Rectangle3D;
 import de.jreality.util.SceneGraphUtility;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 /**
  * TODO: 

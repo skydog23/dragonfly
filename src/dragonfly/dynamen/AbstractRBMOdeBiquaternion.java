@@ -3,11 +3,11 @@ package dragonfly.dynamen;
 import charlesgunn.math.Biquaternion;
 import charlesgunn.math.BiquaternionUtility;
 import charlesgunn.math.Biquaternion.Metric;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import de.jreality.math.Quaternion;
 import de.jreality.math.Rn;
 import de.jtem.numericalMethods.calculus.odeSolving.Extrap;
 import de.jtem.numericalMethods.calculus.odeSolving.ODE;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class AbstractRBMOdeBiquaternion extends RBMOde {
 

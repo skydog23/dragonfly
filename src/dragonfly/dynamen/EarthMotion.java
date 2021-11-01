@@ -25,6 +25,7 @@ import charlesgunn.jreality.viewer.LoadableScene;
 import charlesgunn.jreality.viewer.PluginSceneLoader;
 import charlesgunn.math.Biquaternion;
 import charlesgunn.math.Biquaternion.Metric;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.GeometryUtility;
 import de.jreality.geometry.IndexedLineSetUtility;
@@ -44,7 +45,6 @@ import de.jreality.shader.TextureUtility;
 import de.jreality.util.CameraUtility;
 import de.jreality.util.Rectangle3D;
 import de.jreality.util.SceneGraphUtility;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class EarthMotion extends Assignment {
 

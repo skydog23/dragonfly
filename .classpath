@@ -12,7 +12,6 @@
 	<classpathentry kind="lib" path="/lib/jai_codec.jar"/>
 	<classpathentry kind="lib" path="/lib/jai_core.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/jrealityBullet"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/projgeom"/>
 	<classpathentry kind="lib" path="/jrealityBullet/lib/bulletSoundData.jar"/>
 	<classpathentry kind="lib" path="/jrealityBullet/lib/jbullet-all.jar"/>
 	<classpathentry kind="lib" path="/jrealityBullet/lib/jbullet-demos.jar"/>

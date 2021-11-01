@@ -13,6 +13,7 @@ import javax.swing.SwingConstants;
 
 import charlesgunn.jreality.geometry.Snake;
 import charlesgunn.jreality.geometry.projective.LineUtility;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.BallAndStickFactory;
 import de.jreality.geometry.IndexedLineSetFactory;
@@ -29,7 +30,6 @@ import de.jreality.scene.data.Attribute;
 import de.jreality.shader.CommonAttributes;
 import de.jreality.util.SceneGraphUtility;
 import de.jtem.numericalMethods.calculus.odeSolving.ODE;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 /**
  * A class which manages rigid body motion of an object free to rotate in euclidean space around its

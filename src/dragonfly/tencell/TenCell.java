@@ -23,13 +23,14 @@ import charlesgunn.anim.plugin.AnimationPlugin;
 import charlesgunn.anim.util.AnimationUtility;
 import charlesgunn.anim.util.AnimationUtility.InterpolationTypes;
 import charlesgunn.jreality.geometry.projective.PointRangeFactory;
-import charlesgunn.jreality.newtools.FlyTool;
+import charlesgunn.jreality.newtools.FlyTool2;
 import charlesgunn.jreality.plugin.TermesSpherePlugin;
 import charlesgunn.jreality.texture.SimpleTextureFactory;
 import charlesgunn.jreality.texture.SimpleTextureFactory.TextureType;
 import charlesgunn.jreality.viewer.Assignment;
 import charlesgunn.math.Biquaternion;
 import charlesgunn.math.Biquaternion.Metric;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.GeometryUtility;
 import de.jreality.geometry.IndexedFaceSetFactory;
@@ -66,7 +67,6 @@ import de.jtem.discretegroup.core.DiscreteGroupElement;
 import de.jtem.discretegroup.core.DiscreteGroupSceneGraphRepresentation;
 import de.jtem.discretegroup.util.WingedEdge;
 import de.jtem.discretegroup.util.WingedEdgeUtility;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class TenCell extends Assignment  {
 
@@ -588,7 +588,7 @@ public class TenCell extends Assignment  {
 			
 			@Override
 			public void run() {
-				FlyTool tool = new FlyTool();
+				FlyTool2 tool = new FlyTool2();
 				tool.setGain(.4);
 				camnode.addTool(tool);
 				SceneGraphUtility.removeLights(viewer);

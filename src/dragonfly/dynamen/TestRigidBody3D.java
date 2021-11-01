@@ -36,10 +36,11 @@ import charlesgunn.anim.gui.AnimationPanel;
 import charlesgunn.anim.jreality.SceneGraphAnimator;
 import charlesgunn.anim.plugin.AnimationPlugin;
 import charlesgunn.anim.util.AnimationUtility.InterpolationTypes;
-import charlesgunn.jreality.newtools.FlyTool;
+import charlesgunn.jreality.newtools.FlyTool2;
 import charlesgunn.jreality.viewer.Assignment;
 import charlesgunn.jreality.viewer.LoadableScene;
 import charlesgunn.jreality.viewer.PluginSceneLoader;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.IndexedLineSetUtility;
 import de.jreality.math.Matrix;
@@ -53,7 +54,6 @@ import de.jreality.scene.event.TransformationEvent;
 import de.jreality.scene.event.TransformationListener;
 import de.jreality.util.CameraUtility;
 import de.jreality.util.SceneGraphUtility;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 
 public class TestRigidBody3D extends Assignment {
@@ -399,7 +399,7 @@ public class TestRigidBody3D extends Assignment {
 		this.viewer = jrviewer.getViewer();
 		viewer.getSceneRoot().getAppearance().setAttribute("backgroundColor", new Color(150, 150, 150));
 		viewer.getSceneRoot().getAppearance().setAttribute("fogEnabled", false);
-		FlyTool flytool = new FlyTool();
+		FlyTool2 flytool = new FlyTool2();
 		flytool.setGain(.05);
 		flytool.setRotateGain(.05);
 		CameraUtility.getCameraNode(viewer).addTool(flytool);

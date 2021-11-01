@@ -22,6 +22,7 @@ import charlesgunn.anim.util.AnimationUtility;
 import charlesgunn.jreality.texture.RopeTextureFactory;
 import charlesgunn.jreality.viewer.Assignment;
 import charlesgunn.jreality.viewer.LoadableScene;
+import charlesgunn.math.p5.PlueckerLineGeometry;
 import charlesgunn.util.TextSlider;
 import de.jreality.geometry.GeometryUtility;
 import de.jreality.geometry.IndexedLineSetUtility;
@@ -50,7 +51,6 @@ import de.jtem.discretegroup.core.DiscreteGroupElement;
 import de.jtem.discretegroup.core.DiscreteGroupSceneGraphRepresentation;
 import de.jtem.discretegroup.core.DiscreteGroupUtility;
 import de.jtem.jrworkspace.plugin.Controller;
-import de.jtem.projgeom.PlueckerLineGeometry;
 
 public class HelicalInterlockedTetrahedra  extends Assignment {
 

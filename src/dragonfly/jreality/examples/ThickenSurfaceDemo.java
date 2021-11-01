@@ -106,7 +106,6 @@ public class ThickenSurfaceDemo extends Assignment {
 	Object theTexture = null;
 //	private double[][] profile = new double[][]{{0,0},{.02, .25}, {.333,.5},{.666, .5},{.98, .25},{1,0}};
 	private double[][] profile = new double[][]{{0,0},{0, .25}, {.333,.5},{.666, .5},{1, .25},{1,0}};
-	Viewer viewer;
 	ThickenedSurfaceFactory thickenSurfaceFactory;
 	Appearance texap = null, ap = new Appearance();
 	Hashtable<String, Gerbil> examples = new Hashtable<String, Gerbil>();
@@ -495,27 +494,27 @@ public class ThickenSurfaceDemo extends Assignment {
 //		myfog.addParameter("distance", new Double(5.0));
 //		viewer.getSceneRoot().getAppearance().setAttribute(CommonAttributes.RMAN_VOLUME_ATMOSPHERE_SHADER, myfog);
 		viewer.getSceneRoot().setPickable(true);
-//		JMenu testM = new JMenu("Examples");
-//		ButtonGroup bg = new ButtonGroup();
-//		Set<String> gnames = examples.keySet();
-//		for (final String name : gnames)	{
-//			JMenuItem jm = testM.add(new JRadioButtonMenuItem(name));
-//			jm.addActionListener( new ActionListener() {
-//				public void actionPerformed(ActionEvent e)	{
-//					replaceExample(name);
-//				}
-//			});
-//			bg.add(jm);
-//		}
-//		JMenuItem jm = testM.add(new JMenuItem("Load ..."));
-//		jm.addActionListener( new ActionListener() {
-//			public void actionPerformed(ActionEvent e)	{
-//				loadFile();
-//			}
-//		});
-//		bg.add(jm);
-//		ViewMenuBar vmb = jrviewer.getPlugin(ViewMenuBar.class);
-//		vmb.addMenu(null, 2.0, testM, "File");
+		JMenu testM = new JMenu("Examples");
+		ButtonGroup bg = new ButtonGroup();
+		Set<String> gnames = examples.keySet();
+		for (final String name : gnames)	{
+			JMenuItem jm = testM.add(new JRadioButtonMenuItem(name));
+			jm.addActionListener( new ActionListener() {
+				public void actionPerformed(ActionEvent e)	{
+					replaceExample(name);
+				}
+			});
+			bg.add(jm);
+		}
+		JMenuItem jm = testM.add(new JMenuItem("Load ..."));
+		jm.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e)	{
+				loadFile();
+			}
+		});
+		bg.add(jm);
+		ViewMenuBar vmb = jrviewer.getPlugin(ViewMenuBar.class);
+		vmb.addMenu(null, 2.0, testM, "File");
 
 		((Component) viewer.getViewingComponent()).addKeyListener( new KeyAdapter()	{
 
