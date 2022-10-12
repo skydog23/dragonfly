@@ -61,16 +61,16 @@ public class ArchieFallsDemo extends Plugin {
 		SceneGraphComponent worldSolids = new SceneGraphComponent("world solids");
 		ArchimedeanSolidsDemo acd = new ArchimedeanSolidsDemo();
 		//acd.makeWorld();
-		worldSolids =acd.makeWorld(); // acd.getPlatonic(); //
+		worldSolids =acd.getContent(); // acd.getPlatonic(); //
 		SceneGraphComponent worldPolar = new SceneGraphComponent("world polars");
 		acd = new ArchimedeanSolidsDemo();
 		acd.showPolars = true; acd.showSolids = false; acd.transpPolars = false;
 		acd.pap.setAttribute(CommonAttributes.TRANSPARENCY_ENABLED, false);
-		worldPolar = acd.makeWorld();
+		worldPolar = acd.getContent();
 		
 		SceneGraphComponent platos;
 		acd = new ArchimedeanSolidsDemo();
-		acd.makeWorld();
+		acd.getContent();
 		platos =acd.getPlatonic(); //
 
 		// create profile curve for bowl
