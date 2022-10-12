@@ -417,6 +417,7 @@ public class McCabe {
 				rgba[animateCount++] = (float) Math.abs(weights[i]);
 			}
 		}
+		System.err.println("animate count = "+animateCount);
 		if (doColormap) {
 			float max = 0.0f, sum = 0f;
 			for (int i = 0; i<animateCount; ++i) {
