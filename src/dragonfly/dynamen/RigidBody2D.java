@@ -11,7 +11,6 @@ import de.jreality.math.Rn;
 
 public class RigidBody2D implements RigidBodyInterface {
 
-	
 	{
 		Locale.setDefault(Locale.US);
 	}
