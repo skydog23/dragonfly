@@ -1,4 +1,4 @@
-package dragonfly.dynamen.ws08;
+package dragonfly.dynamen;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -9,23 +9,16 @@ import java.util.Locale;
 import javax.swing.Box;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JMenuBar;
-import javax.swing.JPanel;
 
 import charlesgunn.anim.core.Animated;
 import charlesgunn.anim.core.AnimatedAdaptor;
 import charlesgunn.anim.core.KeyFrameAnimatedBoolean;
 import charlesgunn.anim.core.KeyFrameAnimatedDelegate;
-import charlesgunn.anim.gui.AnimationPanel;
 import charlesgunn.anim.plugin.AnimationPlugin;
 import charlesgunn.jreality.geometry.Snake;
 import charlesgunn.jreality.viewer.Assignment;
-import charlesgunn.jreality.viewer.LoadableScene;
-import charlesgunn.jreality.viewer.PluginSceneLoader;
 import de.jreality.math.MatrixBuilder;
 import de.jreality.scene.SceneGraphComponent;
-import de.jreality.scene.SceneGraphPath;
-import de.jreality.scene.Viewer;
 import de.jreality.shader.CommonAttributes;
 import de.jreality.util.CameraUtility;
 import de.jreality.util.SceneGraphUtility;

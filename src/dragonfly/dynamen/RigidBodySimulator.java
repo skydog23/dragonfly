@@ -1,4 +1,4 @@
-package dragonfly.dynamen.ws08;
+package dragonfly.dynamen;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -19,6 +19,9 @@ import de.jreality.scene.SceneGraphComponent;
 import de.jreality.shader.CommonAttributes;
 import de.jreality.util.SceneGraphUtility;
 import de.jtem.numericalMethods.calculus.odeSolving.ODE;
+import dragonfly.dynamen.ws08.RBMOde;
+import dragonfly.dynamen.ws08.RBMOdeMatrix;
+import dragonfly.dynamen.ws08.RigidBodyInterface;
 
 /**
  * A class which manages rigid body motion of an object free to rotate in euclidean space around its

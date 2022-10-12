@@ -37,7 +37,7 @@
  *
  */
 
-package dragonfly.dynamen.ws08;
+package dragonfly.dynamen;
 
 import de.jreality.math.FactoredMatrix;
 import de.jreality.math.Matrix;
