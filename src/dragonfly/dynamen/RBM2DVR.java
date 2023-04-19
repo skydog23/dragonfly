@@ -3,7 +3,7 @@ package dragonfly.dynamen;
 import static de.jreality.shader.CommonAttributes.TEXT_ALIGNMENT;
 import static de.jreality.shader.CommonAttributes.DIFFUSE_COLOR;
 import static de.jreality.shader.CommonAttributes.EDGE_DRAW;
-import static de.jreality.shader.CommonAttributes.LINE_FACTOR;
+import static de.jreality.shader.CommonAttributes.LINE_STIPPLE_FACTOR;
 import static de.jreality.shader.CommonAttributes.LINE_SHADER;
 import static de.jreality.shader.CommonAttributes.LINE_STIPPLE;
 import static de.jreality.shader.CommonAttributes.LINE_STIPPLE_PATTERN;
@@ -232,7 +232,7 @@ public class RBM2DVR {
 		ap.setAttribute(EDGE_DRAW, true);
 		ap.setAttribute(LINE_SHADER+"."+DIFFUSE_COLOR, Color.white);
 		ap.setAttribute(LINE_SHADER+"."+LINE_STIPPLE, true);
-		ap.setAttribute(LINE_SHADER+"."+LINE_FACTOR, 4);
+		ap.setAttribute(LINE_SHADER+"."+LINE_STIPPLE_FACTOR, 4);
 		ap.setAttribute(LINE_SHADER+"."+LINE_STIPPLE_PATTERN, 0x5);
 		ap.setAttribute(LINE_SHADER+"."+LINE_WIDTH, 2.0);
 		ap.setAttribute(LINE_SHADER+"."+TUBES_DRAW, false);

@@ -79,7 +79,7 @@ public class Iscador3DEarth extends Assignment {
 	transient SceneGraphPath world2disk;
 	transient PointCollector pc = new PointCollector(1000, 4);
 //	transient String earthTextureName = "http://page.math.tu-berlin.de/~gunn/Pictures/textures/Earth2048Light.jpg"; //grid256.jpg")); //
-	transient String earthTextureName = "/gunn_local/Movies/mistletoeMachine/pictures/earthNASA-5400x2700.jpg"; //grid256.jpg")); //
+	transient String earthTextureName = "/Volumes/SamsungSSD1T/gunn_local/Movies/mistletoeMachine/pictures/earthNASA-5400x2700.jpg"; //grid256.jpg")); //
 	transient double[] pointOnBndy = {1,0,0,1};
 	transient boolean undoEarthB = true, stopEarth = false,
 			kinemePhase = false;

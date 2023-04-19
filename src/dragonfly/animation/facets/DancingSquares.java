@@ -474,7 +474,7 @@ public class DancingSquares extends LoadableScene {
 		}
 		
 		ImportExport.readInto(ap, this.getClass().getResourceAsStream(matheonKrimi ? "matheonKrimi-10.xml" : "borromean-12.xml"));
-		animPlugin.getAnimationPanel().getRecordPrefs().setCurrentDirectoryPath(matheonKrimi ? "/gunn_local/Movies/matheonKrimi" : "/gunn_local/Movies/IMULogo");
+		animPlugin.getAnimationPanel().getRecordPrefs().setCurrentDirectoryPath(matheonKrimi ? "/Volumes/SamsungSSD1T/gunn_local/Movies/matheonKrimi" : "/Volumes/SamsungSSD1T/gunn_local/Movies/IMULogo");
 		animPlugin.getAnimationPanel().setResourceDir("src/dragonfly/animation/facets/");
 
 		//		AnimationPanelListenerImpl apl = new AnimationPanelListenerImpl(viewer, "application");

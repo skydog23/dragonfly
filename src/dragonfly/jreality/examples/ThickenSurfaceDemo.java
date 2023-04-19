@@ -345,7 +345,7 @@ public class ThickenSurfaceDemo extends Assignment {
 			examples.put("borromean ring",new Gerbil(surface, mlist2));
 		try {
 			SceneGraphComponent sgc  = Readers.read(
-					Input.getInput("/gunn_local/Models/geomview/tope25-ref.oogl")); //OBJ/Genus2_stl/Polyhedron_2_10_20332.jvx"));// 
+					Input.getInput("/Volumes/SamsungSSD1T/gunn_local/Models/geomview/tope25-ref.oogl")); //OBJ/Genus2_stl/Polyhedron_2_10_20332.jvx"));// 
 			Geometry g = SceneGraphUtility.getFirstGeometry(sgc);
 			if (g instanceof IndexedFaceSet) surface = (IndexedFaceSet) g;
 			examples.put("self-intersecting sphere",new Gerbil(surface));

@@ -73,27 +73,27 @@ public class InterlockedTetrahedra  extends Assignment {
 		double thickness = .02;
 		double r = .5 * PlueckerLineGeometry.distanceBetweenLines(line1, line2);
 		r = (1-thickness/2.0)*r;
-//		SceneGraphComponent tetra = getTetrahedron();
-		Geometry cyl = Primitives.cylinder(numCylinderSides, 1, 1, -.5, .5, Math.PI*2, 2);
-		SceneGraphComponent sgc = Primitives.closedCylinder(numCylinderSides, 1, -.5, .5, Math.PI*2);
-		GeometryMergeFactory gmf = new GeometryMergeFactory();
-		IndexedFaceSet ifs = gmf.mergeIndexedFaceSets(sgc);
-		ThickenedSurfaceFactory tsf = new ThickenedSurfaceFactory(ifs);		// constructor requires a surface
-		tsf.setThickness(thickness);				// distance between top and bottom
-		tsf.setMakeHoles(true);				// boolean
-		tsf.setHoleFactor(.4);				// closer to 0, the bigger the hole
-		tsf.setStepsPerEdge(4);				// each original edge is replaced by 6 segments
-		tsf.setCurvedEdges(true);
-		// profile curve describes the cross-section of the hole
-		tsf.setLinearHole(false);		
-		tsf.setProfileCurve(new double[][]{{0,0}, {.5,1},{1.5, 1},{1,0}});
-		tsf.update();
-		cyl = tsf.getThickenedSurface();
+		SceneGraphComponent tetra = getTetrahedron();
+//		Geometry cyl = Primitives.cylinder(numCylinderSides, 1, 1, -.5, .5, Math.PI*2, 2);
+//		SceneGraphComponent sgc = Primitives.closedCylinder(numCylinderSides, 1, -.5, .5, Math.PI*2);
+//		GeometryMergeFactory gmf = new GeometryMergeFactory();
+//		IndexedFaceSet ifs = gmf.mergeIndexedFaceSets(sgc);
+//		ThickenedSurfaceFactory tsf = new ThickenedSurfaceFactory(ifs);		// constructor requires a surface
+//		tsf.setThickness(thickness);				// distance between top and bottom
+//		tsf.setMakeHoles(true);				// boolean
+//		tsf.setHoleFactor(.4);				// closer to 0, the bigger the hole
+//		tsf.setStepsPerEdge(4);				// each original edge is replaced by 6 segments
+//		tsf.setCurvedEdges(true);
+//		// profile curve describes the cross-section of the hole
+//		tsf.setLinearHole(false);		
+//		tsf.setProfileCurve(new double[][]{{0,0}, {.5,1},{1.5, 1},{1,0}});
+//		tsf.update();
+//		cyl = tsf.getThickenedSurface();
 		for (int i = 0; i<5; ++i)	{
 			SceneGraphComponent cubekit = SceneGraphUtility.createFullSceneGraphComponent();
 			cubekit.getTransformation().setMatrix(acc);
 			if (kemper)	{
-				cubekit.setGeometry(cyl); //addChild(cyl);
+				cubekit.addChild(tetra); // setGeometry(cyl); //
 			} else {
 				BallAndStickFactory basf;
 				basf = new BallAndStickFactory(Primitives.tetrahedron());
@@ -140,7 +140,7 @@ public class InterlockedTetrahedra  extends Assignment {
 		double k1 = 0.566915, k2 = .447, k3 = .2361, k4 = 0.105573;
 		double[][] verts = {{0,0,0},{-1,-1,1},{-k1,-k1,1},{-k2,-k2,1},{-k3,-k3,1},{-k4,-k4,1},
 				{k4,k4,1},{k3,k3,1},{k2,k2,1},{k1,k1,1},{1,1,1}};
-		int[][] indices5 = {{0,1,2},{0,2,3},{0,3,8},{0,8,9},{0,9,10}};
+		int[][] indices5 = {{0,1,2},{0,2,5},{0,5,6},{0,6,9},{0,9,10}};
 		int[][] indices10 = {{0,1,2},{0,2,3},{0,3,4}, {0,4,5},{0,5,6},{0,6,7}, {0,7,8},{0,8,9},{0,9,10}};
 		int[][] indices = allTen ? indices10 : indices5;
 		Color[] fc5 = {Color.cyan, Color.red, Color.yellow,  Color.red,Color.cyan};
