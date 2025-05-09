@@ -151,7 +151,7 @@ public class ArchieFallsDemo extends Plugin {
 		v.registerPlugin(p);
 
 		v.startup();
-		MatrixBuilder.euclidean().translate(0,0,5).assignTo(v.getPlugin(Avatar.class).getAvatar());
+		MatrixBuilder.euclidean().translate(0,2,5).assignTo(v.getPlugin(Avatar.class).getAvatar());
 		v.getPlugin(View.class).getViewer().getSceneRoot().getAppearance().setAttribute(CommonAttributes.RMAN_GLOBAL_INCLUDE_FILE, "quality.rib");
 		viewer = v.getPlugin(View.class).getViewer();
 		CameraUtility.encompass(viewer, p.root2, true);
